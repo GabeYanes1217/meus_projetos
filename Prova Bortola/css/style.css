@@ -1,0 +1,110 @@
+*{margin: 0; padding: 0;}
+
+body{
+    background-image: url(../img/fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bannerf{
+    margin-left: 500px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 1;
+}
+
+#conteudo{
+    position: relative;
+    margin-top: 290px;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+    width: 900px;
+    background-color: #ffffff7a;
+    padding: 20px;
+    border: 5px solid #000066;
+    border-radius: 20px;
+}
+
+#arvore{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#quadro{
+    float: right;
+}
+
+.imgperso{
+    border-radius: 50%;
+    border: 4px solid #000066;
+}
+
+.linha{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    border: 0.5px solid #000066;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.personagens{
+    width: 100%;
+    float: left;
+}
+
+hr{
+    color: #003399;
+}
+
+h1{
+    font-family: Arial;
+    font-size: 30px;
+    color: #F44C2D;
+    line-height: 80px;
+}
+
+h2{
+    font-family: Tahoma;
+    font-size: 24px;
+    color: #003399;
+}
+
+p{
+    font-family: Arial;
+    font-size: 18px;
+    color: #003399;
+    text-align: justify;
+}
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    color: #003399;
+}
+
+ul li a:hover{
+    color: #013db7;
+    background-color: #ffffff7a;
+}
+
+table{
+    width: 870px;
+}
+
+table tr td h2{
+    line-height:60px;
+}
+
+tr{
+    height: 300px;
+}
+
+.textotd{
+    padding: 40px;
+}
+

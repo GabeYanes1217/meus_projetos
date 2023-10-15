@@ -1,0 +1,179 @@
+body{
+	font-family: arial, verdana, tahoma;
+	font-size: 15px;
+	background-image: url(../img/fundo.png);
+	background-repeat: repeat-x;
+}
+
+#container{
+	width: 900px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#cabecalho{
+	width: 100%;
+	height: 140px	;
+	position: relative;
+}
+
+.imgB{background-image: url(../img/imagensB.png)}
+.imgA{background-image: url(../img/imagensA.png)}
+
+
+.logo{
+	width: 159px;
+    height: 140px;
+    background-position: 179px -20px;
+    position: absolute;
+    left: 20px;
+    z-index: 1;
+}
+
+#menu, #rodape{
+	width: 100%;
+	height: 50px;
+	background-color: #555;
+	position: absolute;
+	z-index: 0;
+	bottom: 0;
+}
+
+
+
+
+#menu ul{
+	float: right;
+	margin-top: 7px;
+}
+
+#menu ul li{
+	display: inline-block;
+	padding: 10px;
+}
+
+#menu ul li:hover{
+	background-color: #c82428;
+    border-radius: 9px;
+    color: #fff;
+}
+
+
+#menu ul li a{
+	text-decoration: none;
+	color: #a5a3a3;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+
+#banner{
+	background-image: url(../img/banner.png);
+	max-width: 100%;
+	height: 392px;
+	border:1px solid #333;
+}
+
+#produtos, #servicos{
+	width: 100%;
+	height: 330px;
+	padding-top: 20px;
+}
+
+#servicos{
+	height: 260px;
+}
+
+h2{
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #666;
+	font-weight: bold;
+}
+
+#produtos .caixa, #servicos .caixa{
+	border: 1px solid #cccc;
+    background-color: #fff;
+    width: 200px;
+    height: 290px;
+    margin: 10px;
+    float: left;
+}
+
+#servicos .caixa{
+	width: 428px;
+	height: 220px;
+	border: 0px solid red;
+}
+
+
+
+#produtos .ajusteIMG{
+	width: 140px;
+    height: 170px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+#produtos .pos-1 {background-position: 10px 0;}
+#produtos .pos-2 {background-position: -109px 0;}
+#produtos .pos-3 {background-position: -241px 0;}
+#produtos .pos-4 {background-position: 142px 0;}
+
+#produtos h4, #servicos h4{
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #666;
+	font-weight: bold;
+}
+
+#produtos p{
+	text-align: right;
+	color: red;
+}
+
+#produtos h4, #produtos p{
+	margin: 20px;
+}
+
+
+#servicos .ajusteIMG{
+	width: 100%;
+    height: 94px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#servicos .pos-1{background-position: -29px -19px;}
+#servicos .pos-2{background-position: -29px -119px;}
+
+
+#rodape{
+	position: relative;
+	clear: both;
+
+}
+
+#rodape p{
+	color: #ccc;
+	font-size: 12px;
+	padding: 20px;
+	float: left;
+}
+
+#rodape ul{
+	float: right;
+    width: auto;
+    height: 45px;
+    margin-right: 20px;
+}
+
+#rodape .ajusteIMG{
+	width: 45px;
+    height: 45px;
+    display: inline-block;
+}
+
+#rodape .pos-1{background-position: -20px 51px}
+#rodape .pos-2{background-position: -66px 51px}
+#rodape .pos-3{background-position: -109px 51px}

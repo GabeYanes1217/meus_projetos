@@ -1,0 +1,372 @@
+body{
+    background-color: #fff;
+    background-size: cover;
+}
+
+.container{
+    background-color: transparent;
+    width: 980px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    background-image: url(img/fundoMenu.jpg);
+    background-repeat: repeat;
+    height: 20px;
+    padding: 12px;
+    border: 4px;
+    
+}
+
+.menu nav ul li{
+    color: black;
+    display: inline;
+    list-style: none;
+    padding: 3px;
+    float: left;
+    margin-left: 16px;
+    font-size: 15px;
+}
+
+.menu #busca{
+    float: right;
+    margin-right: 8px;
+    border: 4px solid white;
+    display: inline;
+    font-size: 9px;
+}
+
+.eletro{
+    float: left;
+    background-image: url(img/galeria.png);
+    background-position: 352px 167px;
+    width: 362px;
+    height: 100px;
+    margin-top: 8px;
+}
+
+.telefone{
+    float: right;
+    background-image: url(img/galeria.png);
+    background-position: 232px 81px;
+    width: 204px;
+    height: 91px;
+}
+
+.ls{
+    display: inline-block;
+}
+
+.um{
+    display: block;
+    background-color: grey;
+    height: 20px;
+    padding: 12px;
+    border: 1px solid rgb(40, 40, 40);
+    margin-top: 12%;
+}
+
+.um nav ul li{
+    color: rgb(196, 194, 194);
+    display: inline;
+    list-style: none;
+    padding: 3px;
+    float: left;
+    margin-left: 16px;
+    font-size: 15px;
+}
+
+.apple{
+    float: left;
+    background-image: url(img/painelPrincipal.jpg);
+    background-position: -2px -11px;
+    width: 742px;
+    height: 400px;
+    margin-top: 15px;
+    border: 1px solid rgba(219, 219, 219, 0.941);
+}
+
+.apple h4{
+    font-size: 71px;
+    color: rgb(45, 45, 45);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 56px;
+    margin-left: 16px;
+    float: left;
+    text-align: left;
+}
+
+.apple p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(175, 175, 175);
+    float: left;
+    text-align: left;
+    margin-right: 400px;
+    font-size: 15px;
+    margin-left: 16px;
+    margin-top: 15px;
+}
+
+.apple h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    float: left;
+    text-align: left;
+    color: black;
+    margin-top: 25px;
+    margin-left: 16px;
+}
+
+.apple h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    float: right;
+    text-align: left;
+    color: greenyellow;
+    margin-top: 25px;
+    margin-right: 562px;
+}
+
+.botao{
+    display: inline-block;
+    padding: 5px 26px;
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    cursor:pointer;
+    border-radius: 4px;
+    border: 2px solid transparent;
+}
+
+
+.botao-verde{
+    color: #fff;
+    background-color: rgb(111, 196, 72);
+    border-color: rgb(111, 196, 72);
+}
+
+.pc_fotos1{
+    float: right;
+    border: 1px solid rgba(219, 219, 219, 0.941);
+    background-image: url(img/painel1.jpg);
+    background-position: 136px 100px;
+    height: 99px;
+    width: 234px;
+    margin-top: 15px;
+}
+
+.pc_fotos2{
+    float: right;
+    border: 1px solid rgba(219, 219, 219, 0.941);
+    background-image: url(img/painel2.jpg);
+    background-position: 136px 100px;
+    height: 99px;
+    width: 234px;
+    margin-top: 0px;
+}
+
+.pc_fotos3{
+    float: right;
+    border: 1px solid rgba(219, 219, 219, 0.941);
+    background-image: url(img/painel3.jpg);
+    background-position: 136px 100px;
+    height: 99px;
+    width: 234px;
+    margin-top: 0px;    
+}
+
+.pc_fotos4{
+    float: right;
+    border: 1px solid rgba(219, 219, 219, 0.941);
+    background-image: url(img/painel4.jpg);
+    background-position: 136px 100px;
+    height: 99px;
+    width: 234px;
+    margin-top: 0px;
+}
+
+.produtos{
+    margin-top: 15px;
+}
+
+.produtos h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgba(151, 150, 150, 0.941);;
+}
+
+.produtos hr{
+    border: 1px solid rgba(219, 219, 219, 0.941);
+}
+
+
+
+.ft_produto1{
+    background-image: url(img/produto1.jpg);
+    background-position: 3px 3px;
+    width: 162px;
+    height: 170px;
+    float: left;
+}
+
+.ft_produto2{
+    float: left;
+    background-image: url(img/produto2.jpg);
+    background-position: 0px 3px;
+    width: 162px;
+    height: 170px;
+}
+
+.ft_produto3{
+    float: left;
+    background-image: url(img/produto3.jpg);
+    background-position: 0px 3px;
+    width: 162px;
+    height: 170px;
+}
+
+.banner1{
+    float: right;
+    background-image: url(img/banner1.jpg);
+    background-position: 192px 3px;
+    width: 192px;
+    height: 227px;
+}
+
+.banner2{
+    float: right;
+    background-image: url(img/banner2.jpg);
+    background-position: 196px 221px;
+    width: 196px;
+    height: 111px;
+}
+
+.banner3{
+    float: right;
+    background-image: url(img/banner3.jpg);
+    background-position: 196px 180px;
+    width: 196px;
+    height: 180px;
+}
+
+.ft_produto4{
+    float: left;
+    background-image: url(img/produto4.jpg);
+    background-position: 0px 6px;
+    width: 156px;
+    height: 171px;
+}
+
+.ft_produto5{
+    float: left;
+    background-image: url(img/produto5.jpg);
+    background-position: 0px 6px;
+    width: 156px;
+    height: 171px;
+}
+
+.ft_produto6{
+    float: left;
+    background-image: url(img/produto6.jpg);
+    background-position: 0px 6px;
+    width: 156px;
+    height: 171px;
+}
+
+
+.details{
+    float: left;
+    background-image: url(img/galeria.png);
+    background-position: -11px -195px;
+    width: 103px;
+    height: 45px;
+}
+
+.banner4{
+    float: right;
+    background-image: url(img/banner4.jpg);
+    background-position: 3px 130px;
+    width: 986px;
+    height: 130px;
+}
+
+.fp h1{
+    color: rgb(0, 174, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formasdep1{
+    float: left;
+    background-image: url(img/forma1.jpg);
+    background-position: 186px 197px;
+    width: 93px;
+    height: 39px
+}
+
+.formasdep2{
+    float: left;
+    background-image: url(img/galeria.png);
+    background-position: 145px 250px;
+    width: 61px;
+    height: 39px
+}
+
+.formasdep3{
+    float: left;
+    background-image: url(img/galeria.png);
+    background-position: 346px 247px;
+    width: 48px;
+    height: 39px;
+}
+
+.formasdep4{
+    float: left;
+    background-image: url(img/galeria.png);
+    background-position: 281px 247px;
+    width: 48px;
+    height: 39px;
+}
+
+.formasdep5{
+    float: left;
+    background-image: url(img/galeria.png);
+    background-position: 214px 247px;
+    width: 48px;
+    height: 39px;
+}
+
+.formasdep6{
+    float: left;
+    background-image: url(img/galeria.png);
+    background-position: 349px 202px;
+    width: 48px;
+    height: 39px;
+}
+
+.formasdep7{
+    float: left;
+    background-image: url(img/galeria.png);
+    background-position: 206px 206px;
+    width: 52px;
+    height: 39px;
+}
+
+.formasdep8{
+    float: left;
+    background-image: url(img/galeria.png);
+    background-position: 136px 206px;
+    width: 67px;
+    height: 39px;
+}
+
+.formasdep9{
+    float: left;
+    background-image: url(img/forma9.jpg);
+    background-position: 112px 198px;
+    width: 55px;
+    height: 39px;
+}

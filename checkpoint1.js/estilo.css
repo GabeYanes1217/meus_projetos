@@ -1,0 +1,37 @@
+#container{
+    margin: auto;
+    width: 47%;
+    height: 200px;
+    border: 3px solid rgb(21, 13, 13);
+    border-radius: 110px;
+    margin-top: 200px;
+    margin-bottom: 15px;
+    box-shadow: 16px 16px 20px #3f3636;
+    background-color: rgb(255, 0, 0);
+}
+body{
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.368);
+}
+
+#botao{
+    float: right;
+    width: 260px;
+    margin-top: 84px;
+    margin-right: 92px;
+    border-radius: 11px;
+}
+
+#texto{
+    float: left;
+    width: 260px;
+    margin-top: 84px;
+    margin-left: 92px;
+    border-radius: 11px;
+}
+
+input {
+    text-align: center;
+}
+
+
